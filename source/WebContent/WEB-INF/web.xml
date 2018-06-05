@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+	      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	      xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	      version="3.0">
+
+  <display-name>Ignite Webapp</display-name>
+
+  <!-- [Listeners] -->
+  <listener>
+  	<listener-class>org.apache.ignite.startup.servlet.ServletContextListenerStartup</listener-class>
+  </listener>
+  <filter>
+        <filter-name>IgniteWebSessionsFilter</filter-name>
+        <filter-class>org.apache.ignite.cache.websession.WebSessionFilter</filter-class>
+    </filter>
+
+    <!-- You can also specify a custom URL pattern. -->
+    <filter-mapping>
+        <filter-name>IgniteWebSessionsFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <!-- Specify Ignite configuration (relative to META-INF folder or Ignite_HOME). -->
+    <context-param>
+        <param-name>IgniteConfigurationFilePath</param-name>
+        <param-value>config/client-config.xml</param-value>
+    </context-param>
+
+    <!-- Specify the name of Ignite cache for web sessions. -->
+    <context-param>
+        <param-name>IgniteWebSessionsCacheName</param-name>
+        <param-value>medata-replicated</param-value>
+    </context-param>
+  
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
+  
+
+
+
+   <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>/WEB-INF/spring-servlet.xml</param-value>
+  </context-param>
+  <context-param>
+    <param-name>webAppRootKey</param-name>
+    <param-value>toolbox</param-value>
+  </context-param>
+
+
+
+
+  <!-- [Servlets] -->
+  <servlet>
+    <servlet-name>spring</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>spring</servlet-name>
+    <url-pattern>*.htm</url-pattern>
+  </servlet-mapping>
+ 
+  <session-config>
+    <session-timeout>60</session-timeout>
+    <tracking-mode>COOKIE</tracking-mode>
+  </session-config>
+</web-app>
