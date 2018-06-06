@@ -1,0 +1,54 @@
+// ------------------------------------------------------------------
+// List of ignite-ml module's dependencies provided as a part of this distribution.
+// ------------------------------------------------------------------
+
+==============================================================================
+For core (https://github.com/fommil/netlib-java/core) com.github.fommil.netlib:core:jar:1.1.2
+==============================================================================
+This product bundles core which is available under the following:
+BSD 3 Clause. For details, see http://opensource.org/licenses/BSD-3-Clause.
+
+==============================================================================
+For fastutil (http://fasutil.di.unimi.it/) it.unimi.dsi:fastutil:jar:7.0.12
+==============================================================================
+This product bundles fastutil which is available under the following:
+Apache License, Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.html.
+
+==============================================================================
+For ignite-core (http://ignite.apache.org) org.apache.ignite:ignite-core:jar:2.5.0
+==============================================================================
+This product bundles ignite-core which is available under the following:
+The Apache Software License, Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.txt.
+
+==============================================================================
+For ignite-indexing (http://ignite.apache.org) org.apache.ignite:ignite-indexing:jar:2.5.0
+==============================================================================
+This product bundles ignite-indexing which is available under the following:
+The Apache Software License, Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.txt.
+
+==============================================================================
+For ignite-spring (http://ignite.apache.org) org.apache.ignite:ignite-spring:jar:2.5.0
+==============================================================================
+This product bundles ignite-spring which is available under the following:
+The Apache Software License, Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.txt.
+
+==============================================================================
+For Apache Commons RNG Core (http://commons.apache.org/proper/commons-rng/commons-rng-core/) org.apache.commons:commons-rng-core:jar:1.0
+==============================================================================
+This product bundles Apache Commons RNG Core which is available under the following:
+Apache License, Version 2.0. For details, see https://www.apache.org/licenses/LICENSE-2.0.txt.
+
+==============================================================================
+For Apache Commons RNG Simple (http://commons.apache.org/proper/commons-rng/commons-rng-simple/) org.apache.commons:commons-rng-simple:jar:1.0
+==============================================================================
+This product bundles Apache Commons RNG Simple which is available under the following:
+Apache License, Version 2.0. For details, see https://www.apache.org/licenses/LICENSE-2.0.txt.
+
+==============================================================================
+For SparseBitSet (https://github.com/brettwooldridge/SparseBitSet) com.zaxxer:SparseBitSet:jar:1.0
+==============================================================================
+This product bundles SparseBitSet which is available under the following:
+The Apache Software License, Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.txt.
+
+
+

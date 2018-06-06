@@ -1,0 +1,167 @@
+[19:20:34,776][INFO][main][IgniteKernal] 
+
+>>>    __________  ________________  
+>>>   /  _/ ___/ |/ /  _/_  __/ __/  
+>>>  _/ // (7 7    // /  / / / _/    
+>>> /___/\___/_/|_/___/ /_/ /___/   
+>>> 
+>>> ver. 2.5.0#20180523-sha1:86e110c7
+>>> 2018 Copyright(C) Apache Software Foundation
+>>> 
+>>> Ignite documentation: http://ignite.apache.org
+
+[19:20:34,781][INFO][main][IgniteKernal] Config URL: file:/opt/apache/apache-ignite-fabric-2.5.0-bin/config/default-config.xml
+[19:20:34,792][INFO][main][IgniteKernal] IgniteConfiguration [igniteInstanceName=null, pubPoolSize=8, svcPoolSize=8, callbackPoolSize=8, stripedPoolSize=8, sysPoolSize=8, mgmtPoolSize=4, igfsPoolSize=1, dataStreamerPoolSize=8, utilityCachePoolSize=8, utilityCacheKeepAliveTime=60000, p2pPoolSize=2, qryPoolSize=8, igniteHome=/opt/apache/apache-ignite-fabric-2.5.0-bin, igniteWorkDir=/opt/apache/apache-ignite-fabric-2.5.0-bin/work, mbeanSrv=com.sun.jmx.mbeanserver.JmxMBeanServer@6f94fa3e, nodeId=72aee8c8-6141-4d03-a735-3081bda029db, marsh=org.apache.ignite.internal.binary.BinaryMarshaller@4afcd809, marshLocJobs=false, daemon=false, p2pEnabled=false, netTimeout=5000, sndRetryDelay=1000, sndRetryCnt=3, metricsHistSize=10000, metricsUpdateFreq=2000, metricsExpTime=9223372036854775807, discoSpi=TcpDiscoverySpi [addrRslvr=null, sockTimeout=0, ackTimeout=0, marsh=null, reconCnt=10, reconDelay=2000, maxAckTimeout=600000, forceSrvMode=false, clientReconnectDisabled=false, internalLsnr=null], segPlc=STOP, segResolveAttempts=2, waitForSegOnStart=true, allResolversPassReq=true, segChkFreq=10000, commSpi=TcpCommunicationSpi [connectGate=null, connPlc=null, enableForcibleNodeKill=false, enableTroubleshootingLog=false, srvLsnr=org.apache.ignite.spi.communication.tcp.TcpCommunicationSpi$2@36ebc363, locAddr=null, locHost=null, locPort=47100, locPortRange=100, shmemPort=-1, directBuf=true, directSndBuf=false, idleConnTimeout=600000, connTimeout=5000, maxConnTimeout=600000, reconCnt=10, sockSndBuf=32768, sockRcvBuf=32768, msgQueueLimit=0, slowClientQueueLimit=0, nioSrvr=null, shmemSrv=null, usePairedConnections=false, connectionsPerNode=1, tcpNoDelay=true, filterReachableAddresses=false, ackSndThreshold=32, unackedMsgsBufSize=0, sockWriteTimeout=2000, lsnr=null, boundTcpPort=-1, boundTcpShmemPort=-1, selectorsCnt=4, selectorSpins=0, addrRslvr=null, ctxInitLatch=java.util.concurrent.CountDownLatch@45752059[Count = 1], stopping=false, metricsLsnr=org.apache.ignite.spi.communication.tcp.TcpCommunicationMetricsListener@34e9fd99], evtSpi=org.apache.ignite.spi.eventstorage.NoopEventStorageSpi@3c41ed1d, colSpi=NoopCollisionSpi [], deploySpi=LocalDeploymentSpi [lsnr=null], indexingSpi=org.apache.ignite.spi.indexing.noop.NoopIndexingSpi@6a6cb05c, addrRslvr=null, clientMode=false, rebalanceThreadPoolSize=1, txCfg=org.apache.ignite.configuration.TransactionConfiguration@40a4337a, cacheSanityCheckEnabled=true, discoStartupDelay=60000, deployMode=SHARED, p2pMissedCacheSize=100, locHost=null, timeSrvPortBase=31100, timeSrvPortRange=100, failureDetectionTimeout=10000, clientFailureDetectionTimeout=30000, metricsLogFreq=60000, hadoopCfg=null, connectorCfg=org.apache.ignite.configuration.ConnectorConfiguration@6025e1b6, odbcCfg=null, warmupClos=null, atomicCfg=AtomicConfiguration [seqReserveSize=1000, cacheMode=PARTITIONED, backups=1, aff=null, grpName=null], classLdr=null, sslCtxFactory=null, platformCfg=null, binaryCfg=null, memCfg=null, pstCfg=null, dsCfg=DataStorageConfiguration [sysRegionInitSize=41943040, sysCacheMaxSize=104857600, pageSize=0, concLvl=0, dfltDataRegConf=DataRegionConfiguration [name=default, maxSize=385737523, initSize=268435456, swapPath=null, pageEvictionMode=DISABLED, evictionThreshold=0.9, emptyPagesPoolSize=100, metricsEnabled=false, metricsSubIntervalCount=5, metricsRateTimeInterval=60000, persistenceEnabled=false, checkpointPageBufSize=0], storagePath=null, checkpointFreq=180000, lockWaitTime=10000, checkpointThreads=4, checkpointWriteOrder=SEQUENTIAL, walHistSize=20, walSegments=10, walSegmentSize=67108864, walPath=db/wal, walArchivePath=db/wal/archive, metricsEnabled=false, walMode=LOG_ONLY, walTlbSize=131072, walBuffSize=0, walFlushFreq=2000, walFsyncDelay=1000, walRecordIterBuffSize=67108864, alwaysWriteFullPages=false, fileIOFactory=org.apache.ignite.internal.processors.cache.persistence.file.AsyncFileIOFactory@327514f, metricsSubIntervalCnt=5, metricsRateTimeInterval=60000, walAutoArchiveAfterInactivity=-1, writeThrottlingEnabled=false, walCompactionEnabled=false], activeOnStart=true, autoActivation=true, longQryWarnTimeout=3000, sqlConnCfg=null, cliConnCfg=ClientConnectorConfiguration [host=null, port=10800, portRange=100, sockSndBufSize=0, sockRcvBufSize=0, tcpNoDelay=true, maxOpenCursorsPerConn=128, threadPoolSize=8, idleTimeout=0, jdbcEnabled=true, odbcEnabled=true, thinCliEnabled=true, sslEnabled=false, useIgniteSslCtxFactory=true, sslClientAuth=false, sslCtxFactory=null], authEnabled=false, failureHnd=null, commFailureRslvr=null]
+[19:20:34,792][INFO][main][IgniteKernal] Daemon mode: off
+[19:20:34,792][INFO][main][IgniteKernal] OS: Linux 3.10.0-693.21.1.el7.x86_64 amd64
+[19:20:34,792][INFO][main][IgniteKernal] OS user: dshaw
+[19:20:34,792][INFO][main][IgniteKernal] PID: 9063
+[19:20:34,792][INFO][main][IgniteKernal] Language runtime: Java Platform API Specification ver. 1.8
+[19:20:34,792][INFO][main][IgniteKernal] VM information: Java(TM) SE Runtime Environment 1.8.0_131-b11 Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.131-b11
+[19:20:34,793][INFO][main][IgniteKernal] VM total memory: 0.97GB
+[19:20:34,793][INFO][main][IgniteKernal] Remote Management [restart: on, REST: on, JMX (remote: on, port: 49116, auth: off, ssl: off)]
+[19:20:34,793][INFO][main][IgniteKernal] Logger: JavaLogger [quiet=true, config=null]
+[19:20:34,793][INFO][main][IgniteKernal] IGNITE_HOME=/opt/apache/apache-ignite-fabric-2.5.0-bin
+[19:20:34,794][INFO][main][IgniteKernal] VM arguments: [-Xms1g, -Xmx1g, -XX:+AggressiveOpts, -XX:MaxMetaspaceSize=256m, -DIGNITE_QUIET=true, -DIGNITE_SUCCESS_FILE=/opt/apache/apache-ignite-fabric-2.5.0-bin/work/ignite_success_12f96b46-9da5-4d3c-8b48-2cd68144d219, -Dcom.sun.management.jmxremote, -Dcom.sun.management.jmxremote.port=49116, -Dcom.sun.management.jmxremote.authenticate=false, -Dcom.sun.management.jmxremote.ssl=false, -DIGNITE_HOME=/opt/apache/apache-ignite-fabric-2.5.0-bin, -DIGNITE_PROG_NAME=./bin/ignite.sh]
+[19:20:34,794][INFO][main][IgniteKernal] System cache's DataRegion size is configured to 40 MB. Use DataStorageConfiguration.systemCacheMemorySize property to change the setting.
+[19:20:34,794][INFO][main][IgniteKernal] Configured caches [in 'sysMemPlc' dataRegion: ['ignite-sys-cache'], in 'default' dataRegion: ['medata-replicated']]
+[19:20:34,801][INFO][main][IgniteKernal] 3-rd party licenses can be found at: /opt/apache/apache-ignite-fabric-2.5.0-bin/libs/licenses
+[19:20:34,861][INFO][main][IgnitePluginProcessor] Configured plugins:
+[19:20:34,861][INFO][main][IgnitePluginProcessor]   ^-- None
+[19:20:34,861][INFO][main][IgnitePluginProcessor] 
+[19:20:34,862][INFO][main][FailureProcessor] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0]]
+[19:20:34,904][INFO][main][TcpCommunicationSpi] Successfully bound communication NIO server to TCP port [port=47100, locHost=0.0.0.0/0.0.0.0, selectorsCnt=4, selectorSpins=0, pairedConn=false]
+[19:20:34,907][WARNING][main][TcpCommunicationSpi] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[19:20:34,935][WARNING][main][NoopCheckpointSpi] Checkpoints are disabled (to enable configure any GridCheckpointSpi implementation)
+[19:20:34,959][WARNING][main][GridCollisionManager] Collision resolution is disabled (all jobs will be activated upon arrival).
+[19:20:34,959][INFO][main][IgniteKernal] Security status [authentication=off, tls/ssl=off]
+[19:20:35,209][INFO][main][ClientListenerProcessor] Client connector processor has started on TCP port 10800
+[19:20:35,240][INFO][main][GridTcpRestProtocol] Command protocol successfully started [name=TCP binary, host=0.0.0.0/0.0.0.0, port=11211]
+[19:20:35,273][INFO][main][IgniteKernal] Non-loopback local IPs: 172.24.2.156, fe80:0:0:0:7c35:8fdb:e935:5c4d%enp0s3
+[19:20:35,274][INFO][main][IgniteKernal] Enabled local MACs: 080027C7F177
+[19:20:35,314][INFO][main][TcpDiscoverySpi] Successfully bound to TCP port [port=47500, localHost=0.0.0.0/0.0.0.0, locNodeId=72aee8c8-6141-4d03-a735-3081bda029db]
+[19:20:35,360][INFO][tcp-disco-srvr-#3][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/172.24.3.28, rmtPort=57049]
+[19:20:35,367][INFO][tcp-disco-srvr-#3][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/172.24.3.28, rmtPort=57049]
+[19:20:35,368][INFO][tcp-disco-sock-reader-#4][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/172.24.3.28:57049, rmtPort=57049]
+[19:20:35,459][WARNING][main][IgniteKernal] Nodes started on local machine require more than 20% of physical RAM what can lead to significant slowdown due to swapping (please decrease JVM heap size, data region size or checkpoint buffer size) [required=1457MB, available=1839MB]
+[19:20:35,489][INFO][exchange-worker-#36][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=2, minorTopVer=0], crd=false, evt=NODE_JOINED, evtNode=72aee8c8-6141-4d03-a735-3081bda029db, customEvt=null, allowMerge=true]
+[19:20:35,678][INFO][exchange-worker-#36][GridCacheProcessor] Started cache [name=ignite-sys-cache, id=-2100569601, memoryPolicyName=sysMemPlc, mode=REPLICATED, atomicity=TRANSACTIONAL, backups=2147483647]
+[19:20:35,707][INFO][exchange-worker-#36][GridCacheProcessor] Started cache [name=medata-replicated, id=-207121978, memoryPolicyName=default, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647]
+[19:20:35,723][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=2, minorTopVer=0], waitTime=0ms, futInfo=NA]
+[19:20:35,755][INFO][grid-nio-worker-tcp-comm-0-#25][TcpCommunicationSpi] Established outgoing communication connection [locAddr=/172.24.2.156:44080, rmtAddr=ignite.medata.com/172.24.3.28:47100]
+[19:20:35,759][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=2, minorTopVer=0], waitTime=0ms, futInfo=NA]
+[19:20:35,781][INFO][exchange-worker-#36][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=2, minorTopVer=0], crd=false]
+[19:20:35,864][INFO][sys-#39][GridDhtPartitionsExchangeFuture] Received full message, will finish exchange [node=a55a1611-5c03-41dc-a57b-7baa69f1b9a9, resVer=AffinityTopologyVersion [topVer=2, minorTopVer=0]]
+[19:20:35,939][INFO][sys-#39][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=2, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=2, minorTopVer=0], err=null]
+[19:20:35,982][INFO][exchange-worker-#36][GridCachePartitionExchangeManager] Rebalancing scheduled [order=[ignite-sys-cache, medata-replicated]]
+[19:20:35,987][INFO][exchange-worker-#36][GridCachePartitionExchangeManager] Rebalancing started [top=AffinityTopologyVersion [topVer=2, minorTopVer=0], evt=NODE_JOINED, node=72aee8c8-6141-4d03-a735-3081bda029db]
+[19:20:35,988][INFO][exchange-worker-#36][GridDhtPartitionDemander] Starting rebalancing [grp=ignite-sys-cache, mode=SYNC, fromNode=a55a1611-5c03-41dc-a57b-7baa69f1b9a9, partitionsCount=100, topology=AffinityTopologyVersion [topVer=2, minorTopVer=0], rebalanceId=1]
+[19:20:36,034][INFO][utility-#41][GridDhtPartitionDemander] Completed (final) rebalancing [fromNode=a55a1611-5c03-41dc-a57b-7baa69f1b9a9, cacheOrGroup=ignite-sys-cache, topology=AffinityTopologyVersion [topVer=2, minorTopVer=0], time=49 ms]
+[19:20:36,044][INFO][utility-#41][GridDhtPartitionDemander] Completed rebalance future: RebalanceFuture [grp=CacheGroupContext [grp=ignite-sys-cache], topVer=AffinityTopologyVersion [topVer=2, minorTopVer=0], rebalanceId=1]
+[19:20:36,044][INFO][utility-#41][GridDhtPartitionDemander] Starting rebalancing [grp=medata-replicated, mode=ASYNC, fromNode=a55a1611-5c03-41dc-a57b-7baa69f1b9a9, partitionsCount=512, topology=AffinityTopologyVersion [topVer=2, minorTopVer=0], rebalanceId=1]
+[19:20:36,100][INFO][main][IgniteKernal] Performance suggestions for grid  (fix if possible)
+[19:20:36,100][INFO][main][IgniteKernal] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[19:20:36,100][INFO][main][IgniteKernal]   ^-- Disable grid events (remove 'includeEventTypes' from configuration)
+[19:20:36,100][INFO][main][IgniteKernal]   ^-- Enable G1 Garbage Collector (add '-XX:+UseG1GC' to JVM options)
+[19:20:36,100][INFO][main][IgniteKernal]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[19:20:36,100][INFO][main][IgniteKernal]   ^-- Disable processing of calls to System.gc() (add '-XX:+DisableExplicitGC' to JVM options)
+[19:20:36,100][INFO][main][IgniteKernal]   ^-- Speed up flushing of dirty pages by OS (alter vm.dirty_expire_centisecs parameter by setting to 500)
+[19:20:36,100][INFO][main][IgniteKernal]   ^-- Reduce pages swapping ratio (set vm.swappiness=10)
+[19:20:36,100][INFO][main][IgniteKernal] Refer to this page for more performance suggestions: https://apacheignite.readme.io/docs/jvm-and-system-tuning
+[19:20:36,100][INFO][main][IgniteKernal] 
+[19:20:36,100][INFO][main][IgniteKernal] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[19:20:36,101][INFO][main][IgniteKernal] 
+[19:20:36,101][INFO][main][IgniteKernal] 
+
+>>> +----------------------------------------------------------------------+
+>>> Ignite ver. 2.5.0#20180523-sha1:86e110c750a340dc9be2d396415f0b80d7ed8813
+>>> +----------------------------------------------------------------------+
+>>> OS name: Linux 3.10.0-693.21.1.el7.x86_64 amd64
+>>> CPU(s): 1
+>>> Heap: 1.0GB
+>>> VM name: 9063@ignite.node2.medata.com
+>>> Local node [ID=72AEE8C8-6141-4D03-A735-3081BDA029DB, order=2, clientMode=false]
+>>> Local node addresses: [172.24.2.156/0:0:0:0:0:0:0:1%lo, /127.0.0.1, /172.24.2.156]
+>>> Local ports: TCP:10800 TCP:11211 TCP:47100 TCP:47500 
+
+[19:20:36,103][INFO][main][GridDiscoveryManager] Topology snapshot [ver=2, servers=2, clients=0, CPUs=2, offheap=0.72GB, heap=2.0GB]
+[19:20:36,103][INFO][main][GridDiscoveryManager]   ^-- Node [id=72AEE8C8-6141-4D03-A735-3081BDA029DB, clusterState=ACTIVE]
+[19:20:36,103][INFO][main][GridDiscoveryManager] Data Regions Configured:
+[19:20:36,103][INFO][main][GridDiscoveryManager]   ^-- default [initSize=256.0 MiB, maxSize=367.9 MiB, persistenceEnabled=false]
+[19:20:36,131][INFO][sys-#44][GridDhtPartitionDemander] Completed (final) rebalancing [fromNode=a55a1611-5c03-41dc-a57b-7baa69f1b9a9, cacheOrGroup=medata-replicated, topology=AffinityTopologyVersion [topVer=2, minorTopVer=0], time=84 ms]
+[19:20:36,132][INFO][sys-#44][GridDhtPartitionDemander] Completed rebalance future: RebalanceFuture [grp=CacheGroupContext [grp=medata-replicated], topVer=AffinityTopologyVersion [topVer=2, minorTopVer=0], rebalanceId=1]
+[19:20:37,569][INFO][exchange-worker-#36][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=2, minorTopVer=1], crd=false, evt=DISCOVERY_CUSTOM_EVT, evtNode=a55a1611-5c03-41dc-a57b-7baa69f1b9a9, customEvt=CacheAffinityChangeMessage [id=28b35e2d361-34d57414-752b-4daa-8f57-c71a7184b808, topVer=AffinityTopologyVersion [topVer=2, minorTopVer=0], exchId=null, partsMsg=null, exchangeNeeded=true], allowMerge=false]
+[19:20:37,570][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=2, minorTopVer=1], waitTime=0ms, futInfo=NA]
+[19:20:37,586][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partitions release latch: ClientLatch [coordinator=TcpDiscoveryNode [id=a55a1611-5c03-41dc-a57b-7baa69f1b9a9, addrs=[0:0:0:0:0:0:0:1%lo, 127.0.0.1, 172.24.3.28], sockAddrs=[ignite.medata.com/172.24.3.28:47500, /0:0:0:0:0:0:0:1%lo:47500, /127.0.0.1:47500], discPort=47500, order=1, intOrder=1, lastExchangeTime=1528251635376, loc=false, ver=2.5.0#20180523-sha1:86e110c7, isClient=false], ackSent=true, super=CompletableLatch [id=exchange, topVer=AffinityTopologyVersion [topVer=2, minorTopVer=1]]]
+[19:20:37,586][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=2, minorTopVer=1], waitTime=0ms, futInfo=NA]
+[19:20:37,590][INFO][exchange-worker-#36][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=2, minorTopVer=1], crd=false]
+[19:20:37,601][INFO][sys-#47][GridDhtPartitionsExchangeFuture] Received full message, will finish exchange [node=a55a1611-5c03-41dc-a57b-7baa69f1b9a9, resVer=AffinityTopologyVersion [topVer=2, minorTopVer=1]]
+[19:20:37,601][INFO][sys-#47][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=2, minorTopVer=1], resVer=AffinityTopologyVersion [topVer=2, minorTopVer=1], err=null]
+[19:20:37,604][INFO][exchange-worker-#36][GridCachePartitionExchangeManager] Skipping rebalancing (nothing scheduled) [top=AffinityTopologyVersion [topVer=2, minorTopVer=1], evt=DISCOVERY_CUSTOM_EVT, node=a55a1611-5c03-41dc-a57b-7baa69f1b9a9]
+[19:21:36,117][INFO][grid-timeout-worker-#23][IgniteKernal] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=72aee8c8, uptime=00:01:00.007]
+    ^-- H/N/C [hosts=2, nodes=2, CPUs=2]
+    ^-- CPU [cur=4.67%, avg=3.42%, GC=0%]
+    ^-- PageMemory [pages=1226]
+    ^-- Heap [used=79MB, free=91.94%, comm=989MB]
+    ^-- Non heap [used=46MB, free=96.95%, comm=47MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=8, qSize=0]
+[19:21:51,823][INFO][disco-event-worker-#35][GridDiscoveryManager] Added new node to topology: TcpDiscoveryNode [id=6e64f1f6-37da-4711-b482-812ede40ebda, addrs=[0:0:0:0:0:0:0:1%lo, 127.0.0.1, 172.24.3.108], sockAddrs=[/172.24.3.108:0, /0:0:0:0:0:0:0:1%lo:0, /127.0.0.1:0], discPort=0, order=3, intOrder=3, lastExchangeTime=1528251711791, loc=false, ver=2.5.0#20180523-sha1:86e110c7, isClient=true]
+[19:21:51,823][INFO][disco-event-worker-#35][GridDiscoveryManager] Topology snapshot [ver=3, servers=2, clients=1, CPUs=6, offheap=0.72GB, heap=3.7GB]
+[19:21:51,823][INFO][disco-event-worker-#35][GridDiscoveryManager]   ^-- Node [id=72AEE8C8-6141-4D03-A735-3081BDA029DB, clusterState=ACTIVE]
+[19:21:51,823][INFO][disco-event-worker-#35][GridDiscoveryManager] Data Regions Configured:
+[19:21:51,824][INFO][disco-event-worker-#35][GridDiscoveryManager]   ^-- default [initSize=256.0 MiB, maxSize=367.9 MiB, persistenceEnabled=false]
+[19:21:51,825][INFO][exchange-worker-#36][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=3, minorTopVer=0], crd=false, evt=NODE_JOINED, evtNode=6e64f1f6-37da-4711-b482-812ede40ebda, customEvt=null, allowMerge=true]
+[19:21:51,825][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=3, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=3, minorTopVer=0], err=null]
+[19:21:51,825][INFO][exchange-worker-#36][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=3, minorTopVer=0], crd=false]
+[19:21:51,827][INFO][exchange-worker-#36][GridCachePartitionExchangeManager] Skipping rebalancing (nothing scheduled) [top=AffinityTopologyVersion [topVer=3, minorTopVer=0], evt=NODE_JOINED, node=6e64f1f6-37da-4711-b482-812ede40ebda]
+[19:21:53,711][INFO][grid-nio-worker-tcp-comm-1-#26][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/172.24.2.156:47100, rmtAddr=/172.24.3.108:35956]
+[19:22:36,105][INFO][grid-timeout-worker-#23][IgniteKernal] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=72aee8c8, uptime=00:02:00.009]
+    ^-- H/N/C [hosts=3, nodes=3, CPUs=6]
+    ^-- CPU [cur=2.33%, avg=3.07%, GC=0%]
+    ^-- PageMemory [pages=1226]
+    ^-- Heap [used=96MB, free=90.24%, comm=989MB]
+    ^-- Non heap [used=46MB, free=96.92%, comm=47MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[19:23:36,116][INFO][grid-timeout-worker-#23][IgniteKernal] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=72aee8c8, uptime=00:03:00.010]
+    ^-- H/N/C [hosts=3, nodes=3, CPUs=6]
+    ^-- CPU [cur=2.33%, avg=3.04%, GC=0%]
+    ^-- PageMemory [pages=1234]
+    ^-- Heap [used=126MB, free=87.25%, comm=989MB]
+    ^-- Non heap [used=48MB, free=96.82%, comm=49MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[19:23:36,116][INFO][grid-timeout-worker-#23][IgniteKernal] FreeList [name=null, buckets=256, dataPages=1, reusePages=0]
+[19:24:30,203][INFO][disco-event-worker-#35][GridDiscoveryManager] Node left topology: TcpDiscoveryNode [id=6e64f1f6-37da-4711-b482-812ede40ebda, addrs=[0:0:0:0:0:0:0:1%lo, 127.0.0.1, 172.24.3.108], sockAddrs=[/172.24.3.108:0, /0:0:0:0:0:0:0:1%lo:0, /127.0.0.1:0], discPort=0, order=3, intOrder=3, lastExchangeTime=1528251711791, loc=false, ver=2.5.0#20180523-sha1:86e110c7, isClient=true]
+[19:24:30,205][INFO][disco-event-worker-#35][GridDiscoveryManager] Topology snapshot [ver=4, servers=2, clients=0, CPUs=2, offheap=0.72GB, heap=2.0GB]
+[19:24:30,205][INFO][disco-event-worker-#35][GridDiscoveryManager]   ^-- Node [id=72AEE8C8-6141-4D03-A735-3081BDA029DB, clusterState=ACTIVE]
+[19:24:30,206][INFO][disco-event-worker-#35][GridDiscoveryManager] Data Regions Configured:
+[19:24:30,206][INFO][disco-event-worker-#35][GridDiscoveryManager]   ^-- default [initSize=256.0 MiB, maxSize=367.9 MiB, persistenceEnabled=false]
+[19:24:30,240][INFO][exchange-worker-#36][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=4, minorTopVer=0], crd=false, evt=NODE_LEFT, evtNode=6e64f1f6-37da-4711-b482-812ede40ebda, customEvt=null, allowMerge=true]
+[19:24:30,240][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=4, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=4, minorTopVer=0], err=null]
+[19:24:30,240][INFO][exchange-worker-#36][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=4, minorTopVer=0], crd=false]
+[19:24:30,241][INFO][exchange-worker-#36][GridCachePartitionExchangeManager] Skipping rebalancing (nothing scheduled) [top=AffinityTopologyVersion [topVer=4, minorTopVer=0], evt=NODE_LEFT, node=6e64f1f6-37da-4711-b482-812ede40ebda]
+[19:24:36,116][INFO][grid-timeout-worker-#23][IgniteKernal] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=72aee8c8, uptime=00:04:00.016]
+    ^-- H/N/C [hosts=2, nodes=2, CPUs=2]
+    ^-- CPU [cur=4.33%, avg=3.1%, GC=0%]
+    ^-- PageMemory [pages=1234]
+    ^-- Heap [used=134MB, free=86.38%, comm=989MB]
+    ^-- Non heap [used=49MB, free=96.76%, comm=50MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=2, qSize=0]
+    ^-- System thread pool [active=0, idle=8, qSize=0]
+[19:24:36,117][INFO][grid-timeout-worker-#23][IgniteKernal] FreeList [name=null, buckets=256, dataPages=1, reusePages=0]
+[19:24:39,280][INFO][Thread-2][G] Invoking shutdown hook...
+[19:24:39,289][INFO][Thread-2][GridTcpRestProtocol] Command protocol successfully stopped: TCP binary

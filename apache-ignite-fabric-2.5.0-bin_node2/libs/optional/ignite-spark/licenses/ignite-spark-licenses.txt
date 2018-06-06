@@ -1,0 +1,96 @@
+// ------------------------------------------------------------------
+// List of ignite-spark module's dependencies provided as a part of this distribution.
+// ------------------------------------------------------------------
+
+==============================================================================
+For Apache Hadoop Common  org.apache.hadoop:hadoop-common:jar:2.6.5
+==============================================================================
+This product bundles Apache Hadoop Common which is available under the following:
+The Apache Software License, Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.txt.
+
+==============================================================================
+For Jackson-annotations (http://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-annotations:bundle:2.6.5
+==============================================================================
+This product bundles Jackson-annotations which is available under the following:
+The Apache Software License, Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.txt.
+
+==============================================================================
+For Scala Library (http://www.scala-lang.org/) org.scala-lang:scala-library:jar:2.11.8
+==============================================================================
+This product bundles Scala Library which is available under the following:
+BSD 3-Clause. For details, see http://www.scala-lang.org/license.html.
+
+==============================================================================
+For Scala Compiler (http://www.scala-lang.org/) org.scala-lang:scala-reflect:jar:2.11.8
+==============================================================================
+This product bundles Scala Compiler which is available under the following:
+BSD 3-Clause. For details, see http://www.scala-lang.org/license.html.
+
+==============================================================================
+For json4s-core (https://github.com/json4s/json4s) org.json4s:json4s-core_2.11:jar:3.5.0
+==============================================================================
+This product bundles json4s-core which is available under the following:
+Apache-2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.
+
+==============================================================================
+For ignite-core (http://ignite.apache.org) org.apache.ignite:ignite-core:jar:2.5.0
+==============================================================================
+This product bundles ignite-core which is available under the following:
+The Apache Software License, Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.txt.
+
+==============================================================================
+For ignite-indexing (http://ignite.apache.org) org.apache.ignite:ignite-indexing:jar:2.5.0
+==============================================================================
+This product bundles ignite-indexing which is available under the following:
+The Apache Software License, Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.txt.
+
+==============================================================================
+For ignite-log4j (http://ignite.apache.org) org.apache.ignite:ignite-log4j:jar:2.5.0
+==============================================================================
+This product bundles ignite-log4j which is available under the following:
+The Apache Software License, Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.txt.
+
+==============================================================================
+For ignite-spring (http://ignite.apache.org) org.apache.ignite:ignite-spring:jar:2.5.0
+==============================================================================
+This product bundles ignite-spring which is available under the following:
+The Apache Software License, Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.txt.
+
+==============================================================================
+For Spark Project Catalyst (http://spark.apache.org/) org.apache.spark:spark-catalyst_2.11:jar:2.2.0
+==============================================================================
+This product bundles Spark Project Catalyst which is available under the following:
+Apache 2.0 License. For details, see http://www.apache.org/licenses/LICENSE-2.0.html.
+
+==============================================================================
+For Spark Project Core (http://spark.apache.org/) org.apache.spark:spark-core_2.11:jar:2.2.0
+==============================================================================
+This product bundles Spark Project Core which is available under the following:
+Apache 2.0 License. For details, see http://www.apache.org/licenses/LICENSE-2.0.html.
+
+==============================================================================
+For Spark Project Networking (http://spark.apache.org/) org.apache.spark:spark-network-common_2.11:jar:2.2.0
+==============================================================================
+This product bundles Spark Project Networking which is available under the following:
+Apache 2.0 License. For details, see http://www.apache.org/licenses/LICENSE-2.0.html.
+
+==============================================================================
+For Spark Project Shuffle Streaming Service (http://spark.apache.org/) org.apache.spark:spark-network-shuffle_2.11:jar:2.2.0
+==============================================================================
+This product bundles Spark Project Shuffle Streaming Service which is available under the following:
+Apache 2.0 License. For details, see http://www.apache.org/licenses/LICENSE-2.0.html.
+
+==============================================================================
+For Spark Project SQL (http://spark.apache.org/) org.apache.spark:spark-sql_2.11:jar:2.2.0
+==============================================================================
+This product bundles Spark Project SQL which is available under the following:
+Apache 2.0 License. For details, see http://www.apache.org/licenses/LICENSE-2.0.html.
+
+==============================================================================
+For Spark Project Tags (http://spark.apache.org/) org.apache.spark:spark-tags_2.11:jar:2.2.0
+==============================================================================
+This product bundles Spark Project Tags which is available under the following:
+Apache 2.0 License. For details, see http://www.apache.org/licenses/LICENSE-2.0.html.
+
+
+
